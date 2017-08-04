@@ -1,0 +1,301 @@
+@charset "UTF-8";
+@import "variables";
+@import "fonts";
+@import "reset";
+
+
+/*___________Header____________*/
+
+
+.header {
+    position: relative;
+	background-image: url('../img/promo/background.jpg');
+	background-size: cover;
+	background-position: center;
+	color: $white;
+	font-family: 'montserratregular', sans-serif;
+	font-weight: 700;
+    height: 700px;
+    text-align: center;
+       
+        &__nav {
+           display: flex;
+           justify-content: center;
+           /*padding: 38px;*/
+        }
+
+        &__nav-heading {
+           font-size: 20px;
+           
+        }
+
+        &__nav-menu {
+           
+           
+        }
+
+        &__nav-link {
+            padding: 8px 14px 8px;
+            font-size: 14px;
+        	color: $white;
+            border: 2px solid transparent;
+
+            &:hover {
+               border: 3px solid $white;
+               border-radius: 18px;
+            }
+
+        }
+
+        &__slogan {
+        	font-size: 52px;
+        	text-transform: uppercase;
+        }
+
+        &__small-slogan {
+        	font-family: 'robotolight', sans-serif;
+        	font-size: 24px;
+        	font-weight: 300;
+        }
+
+        
+
+       	   
+      
+}
+
+.button {
+    outline: none;
+    border-radius: 19px;
+    border: 2px solid transparent;
+    font-family: 'montserratregular', sans-serif;
+    font-size: 14px;
+
+    &_header {
+        color: $white;
+        background-color: $red;
+
+        &:hover {
+            background-color: $white;
+            border: 2px solid $red;
+            color: $red;
+        }
+    }
+
+    &_partner {
+        border: 2px solid $red;
+        background-color: $white;
+        color: $red;
+        
+        &:hover {
+           background-color: $red;
+           color: $white;
+        }
+    }
+}
+
+/*_____________CONTENT___________*/
+
+.content {
+    @include content;
+}
+
+.section-heading {
+    font-family: 'montserratregular', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: $blackHeading;
+    text-align: center;
+
+    &_partners {
+        margin-bottom: 35px;
+    }
+}
+
+
+/*___________How it works/slider___________*/
+
+.slider-box {
+  display: flex;
+  justify-content: space-between;
+  /*margin-top: 40px;*/
+}
+
+.slider {
+  position: relative;
+    
+    &__button {
+        position: absolute;
+        top: 140px;
+    }
+
+    &__list {
+        /*padding: 0;*/
+        list-style: none;
+        font-family: Arial, sans-serif;
+        color: #fff;
+    }
+
+    &__item {
+        display: none;
+        
+        &:first-child {
+            display: block;
+        }
+
+        &_first,
+        &_second,
+        &_third {
+            width: 300px;
+            height: 400px;
+        }
+        
+        &_first {
+            background-image: url('../img/howitworks/step1.png');
+        }
+
+        &_second {
+            background-image: url('../img/howitworks/step2.png');
+        }
+
+        &_third {
+            background-image: url('../img/howitworks/step3.png');
+        }
+    } 
+    
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding: 223px 20px 20px;
+
+        &_second {
+            padding-top: 251px;
+        }
+    }
+
+    &__content-button {
+        width: 70px;
+        display: inline-block;
+        background-color: #ff4e50;
+        padding: 5px;
+        border-radius: 20px;
+        font-family: 'montserratregular', sans-serif;
+        text-align: center; 
+    }
+
+    &__heading {
+        font-family: 'montserratregular', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: $white;
+        line-height: 30px;
+        margin: 10px 10px 10px 0;
+    }
+
+    &__text {
+        font-family: 'robotolight', sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        color: $sliderText;
+    }
+
+}
+
+#prev,
+#next,
+#prev2,
+#next2,
+#prev3,
+#next3 {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 30px;
+  height: 55px;
+}
+
+#prev,
+#prev2,
+#prev3 {
+  background-image: url('../img/howitworks/arrow_previous.png');
+  margin-left: 10px;
+}
+
+#next,
+#next2,
+#next3 {
+  background-image: url('../img/howitworks/arrow_next.png');
+  margin-left: 210px;
+}
+
+/*___________PARTNERS___________*/
+
+.partner {
+    width: 220px;
+    text-align: center;
+
+    &__photo {
+        position: relative;
+    }
+
+    &__icon {
+        position: absolute;
+        border-radius: 50%;
+        border: 5px solid $white;
+        top: 81px;
+        left: 137px;
+
+        &_red {
+            background-color: $red;
+            padding: 8px 9px 7px;
+        }
+
+        &_green {
+            background-color: $green;
+            padding: 8px 9px 7px;
+        }
+
+        &_yellow {
+            background-color: $yellow;
+            padding: 8px 11px 7px;
+        }
+
+        &_blue {
+            background-color: $blue;
+            padding: 8px 9px 7px;
+        }
+    }
+
+    &__label {
+        font-family: 'montserratregular', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: $blackHeading;
+        line-height: 50px;
+    }
+
+    &__quotation {
+        font-family: 'robotolight', sans-serif;
+        font-size: 14px;
+    }
+}
+
+/*___________Discover ideas (Masonry)__________*/
+
+/*___________Find your interest (AJAX)_________*/
+
+.interest {
+    font-family: 'robotolight', sans-serif;
+    font-size: 18px;
+
+    &__input{
+        font-size: 14px;
+    }
+}
+
+
+/*___________MEDIA Queries__________*/
+
+@import "mobile";
+
+

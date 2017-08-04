@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+$white: #fff;
+$red: #ff4e50;
+$black: #000;
+$blackHeading: #333;
+$sliderText: #ccc;
+$green: #1cd7ad;
+$yellow: #ffa507;
+$blue: #4e73db;
+
+@mixin content {
+	width: 940px;
+	margin: 0 auto;
+}
+
+@mixin mobile-content {
+	width: 100%;
+	margin: 0 auto;
+}
+
+@mixin tablet-content {
+	width: 767px;
+	margin: 0 auto;
+}

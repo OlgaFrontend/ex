@@ -1,0 +1,366 @@
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../fonts/montserrat-regular-webfont.eot");
+  src: url("../fonts/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat-regular-webfont.ttf") format("truetype"), url("../fonts/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotoblack';
+  src: url("../fonts/roboto-black-webfont.eot");
+  src: url("../fonts/roboto-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-black-webfont.woff2") format("woff2"), url("../fonts/roboto-black-webfont.woff") format("woff"), url("../fonts/roboto-black-webfont.ttf") format("truetype"), url("../fonts/roboto-black-webfont.svg#robotoblack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotobold';
+  src: url("../fonts/roboto-bold-webfont.eot");
+  src: url("../fonts/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-bold-webfont.woff2") format("woff2"), url("../fonts/roboto-bold-webfont.woff") format("woff"), url("../fonts/roboto-bold-webfont.ttf") format("truetype"), url("../fonts/roboto-bold-webfont.svg#robotobold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotothin';
+  src: url("../fonts/roboto-thin-webfont.eot");
+  src: url("../fonts/roboto-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-thin-webfont.woff2") format("woff2"), url("../fonts/roboto-thin-webfont.woff") format("woff"), url("../fonts/roboto-thin-webfont.ttf") format("truetype"), url("../fonts/roboto-thin-webfont.svg#robotothin") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotolight';
+  src: url("../fonts/roboto-light-webfont.eot");
+  src: url("../fonts/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-light-webfont.woff2") format("woff2"), url("../fonts/roboto-light-webfont.woff") format("woff"), url("../fonts/roboto-light-webfont.ttf") format("truetype"), url("../fonts/roboto-light-webfont.svg#robotolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/roboto-regular-webfont.eot");
+  src: url("../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto-regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'robotomedium';
+  src: url("../fonts/roboto-medium-webfont.eot");
+  src: url("../fonts/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-medium-webfont.woff2") format("woff2"), url("../fonts/roboto-medium-webfont.woff") format("woff"), url("../fonts/roboto-medium-webfont.ttf") format("truetype"), url("../fonts/roboto-medium-webfont.svg#robotomedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'league_gothicregular';
+  src: url("leaguegothic-regular-webfont.eot");
+  src: url("leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"), url("leaguegothic-regular-webfont.woff2") format("woff2"), url("leaguegothic-regular-webfont.woff") format("woff"), url("leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*___________Header____________*/
+.header {
+  position: relative;
+  background-image: url("../img/promo/background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: 'montserratregular', sans-serif;
+  font-weight: 700;
+  height: 700px;
+  text-align: center; }
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    /*padding: 38px;*/ }
+  .header__nav-heading {
+    font-size: 20px; }
+  .header__nav-link {
+    padding: 8px 14px 8px;
+    font-size: 14px;
+    color: #fff;
+    border: 2px solid transparent; }
+    .header__nav-link:hover {
+      border: 3px solid #fff;
+      border-radius: 18px; }
+  .header__slogan {
+    font-size: 52px;
+    text-transform: uppercase; }
+  .header__small-slogan {
+    font-family: 'robotolight', sans-serif;
+    font-size: 24px;
+    font-weight: 300; }
+
+.button {
+  outline: none;
+  border-radius: 19px;
+  border: 2px solid transparent;
+  font-family: 'montserratregular', sans-serif;
+  font-size: 14px; }
+  .button_header {
+    color: #fff;
+    background-color: #ff4e50; }
+    .button_header:hover {
+      background-color: #fff;
+      border: 2px solid #ff4e50;
+      color: #ff4e50; }
+  .button_partner {
+    border: 2px solid #ff4e50;
+    background-color: #fff;
+    color: #ff4e50; }
+    .button_partner:hover {
+      background-color: #ff4e50;
+      color: #fff; }
+
+/*_____________CONTENT___________*/
+.content {
+  width: 940px;
+  margin: 0 auto; }
+
+.section-heading {
+  font-family: 'montserratregular', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  text-align: center; }
+  .section-heading_partners {
+    margin-bottom: 35px; }
+
+/*___________How it works/slider___________*/
+.slider-box {
+  display: flex;
+  justify-content: space-between;
+  /*margin-top: 40px;*/ }
+
+.slider {
+  position: relative; }
+  .slider__button {
+    position: absolute;
+    top: 140px; }
+  .slider__list {
+    /*padding: 0;*/
+    list-style: none;
+    font-family: Arial, sans-serif;
+    color: #fff; }
+  .slider__item {
+    display: none; }
+    .slider__item:first-child {
+      display: block; }
+    .slider__item_first, .slider__item_second, .slider__item_third {
+      width: 300px;
+      height: 400px; }
+    .slider__item_first {
+      background-image: url("../img/howitworks/step1.png"); }
+    .slider__item_second {
+      background-image: url("../img/howitworks/step2.png"); }
+    .slider__item_third {
+      background-image: url("../img/howitworks/step3.png"); }
+  .slider__content {
+    display: flex;
+    flex-direction: column;
+    padding: 223px 20px 20px; }
+    .slider__content_second {
+      padding-top: 251px; }
+  .slider__content-button {
+    width: 70px;
+    display: inline-block;
+    background-color: #ff4e50;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: 'montserratregular', sans-serif;
+    text-align: center; }
+  .slider__heading {
+    font-family: 'montserratregular', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 30px;
+    margin: 10px 10px 10px 0; }
+  .slider__text {
+    font-family: 'robotolight', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ccc; }
+
+#prev,
+#next,
+#prev2,
+#next2,
+#prev3,
+#next3 {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 30px;
+  height: 55px; }
+
+#prev,
+#prev2,
+#prev3 {
+  background-image: url("../img/howitworks/arrow_previous.png");
+  margin-left: 10px; }
+
+#next,
+#next2,
+#next3 {
+  background-image: url("../img/howitworks/arrow_next.png");
+  margin-left: 210px; }
+
+/*___________PARTNERS___________*/
+.partner {
+  width: 220px;
+  text-align: center; }
+  .partner__photo {
+    position: relative; }
+  .partner__icon {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    top: 81px;
+    left: 137px; }
+    .partner__icon_red {
+      background-color: #ff4e50;
+      padding: 8px 9px 7px; }
+    .partner__icon_green {
+      background-color: #1cd7ad;
+      padding: 8px 9px 7px; }
+    .partner__icon_yellow {
+      background-color: #ffa507;
+      padding: 8px 11px 7px; }
+    .partner__icon_blue {
+      background-color: #4e73db;
+      padding: 8px 9px 7px; }
+  .partner__label {
+    font-family: 'montserratregular', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    line-height: 50px; }
+  .partner__quotation {
+    font-family: 'robotolight', sans-serif;
+    font-size: 14px; }
+
+/*___________Discover ideas (Masonry)__________*/
+/*___________Find your interest (AJAX)_________*/
+.interest {
+  font-family: 'robotolight', sans-serif;
+  font-size: 18px; }
+  .interest__input {
+    font-size: 14px; }
+
+/*___________MEDIA Queries__________*/
+@media screen and (max-width: 479px) {
+  .content {
+    width: 100%;
+    margin: 0 auto; }
+  .header {
+    height: 540px; }
+    .header__nav {
+      flex-direction: column-reverse;
+      padding-top: 28px; }
+    .header__nav-heading {
+      margin-top: 129px;
+      /*margin-left: 18px;*/
+      letter-spacing: 1px; }
+    .header__nav-menu {
+      padding-right: 19px; }
+    .header__slogan {
+      margin-top: 30px;
+      width: 300px;
+      font-size: 30px;
+      line-height: 35px;
+      display: inline-block; }
+    .header__small-slogan {
+      margin: 5px auto;
+      width: 218px;
+      padding: 5px 40px;
+      font-size: 18px;
+      line-height: 24px; }
+  .button {
+    display: inline-block;
+    padding: 11px 50px;
+    letter-spacing: .1px;
+    word-spacing: -.7px; }
+    .button_partner {
+      display: block;
+      padding: 11px 73px;
+      margin: 0 auto; }
+  .section-heading {
+    margin: 35px 0 18px; }
+  .slider-box {
+    display: block;
+    width: 100%; }
+  .slider__item_first, .slider__item_second, .slider__item_third {
+    margin: 0 auto 10px;
+    width: 300px;
+    height: 240px;
+    margin-bottom: 10px; }
+  .slider__content {
+    padding: 70px 20px 20px; }
+  .slider_second {
+    padding-top: 45px; }
+  .slider__button {
+    top: 100px; }
+  #prev,
+  #next,
+  #prev2,
+  #next2,
+  #prev3,
+  #next3 {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 30px;
+    height: 55px; }
+  .all-partners {
+    display: block;
+    width: 228px;
+    margin: 0 auto; }
+  .partner {
+    margin-bottom: 35px; } }
