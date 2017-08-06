@@ -2,7 +2,12 @@
 @media screen and (max-width: 479px) {
 
     .content {
-       @include mobile-content; 
+        @include mobile-content; 
+       
+        &_footer {
+            flex-direction: column;
+            text-align: center;
+        }
     }
 
 	.header {
@@ -60,6 +65,10 @@
 
     .section-heading {
         margin: 35px 0 18px;
+
+        &_partners {
+            letter-spacing: 1px;
+        }
     }
 
     .slider-box {
@@ -120,3 +129,42 @@
     }
 
 }
+
+.interest {
+    text-align: center;
+
+    &__input {
+        margin: 17px 0 10px;
+        width: 87%;
+        border: 1px solid #999;
+        border-radius: 3px;
+        line-height: 36px;
+    }
+
+    &__button {
+        margin-bottom: 40px;
+        width: 87%;
+    }
+}
+
+.footer {
+    &_nav-head {
+        margin-top: 13px;
+        letter-spacing: .4px;
+    }
+}
+
+.footer-company {
+    display: flex;
+    justify-content: center;
+
+    &_link {
+        margin: 0 10px;
+    }
+}
+
+.small-head {
+    margin-top: 5px;
+}
+
+ 

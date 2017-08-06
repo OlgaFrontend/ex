@@ -98,6 +98,14 @@
 
 .content {
     @include content;
+
+    &_footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 48px;
+        line-height: 24px;
+    }
 }
 
 .section-heading {
@@ -291,6 +299,48 @@
     &__input{
         font-size: 14px;
     }
+}
+
+/*___________Footer____________*/
+
+.footer {
+    border-top: 3px solid #ff4e50;
+
+    &_nav-head {
+        font-family: 'montserratregular', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color: #ff4e50;
+    }
+}
+
+.footer-company {
+    &_link {
+        font-family: 'robotolight', sans-serif;
+        font-size: 14px;
+        color: #666;
+        &:hover {
+           text-decoration: underline;
+        }
+    }
+}
+
+.small-head {
+    font-family: 'montserratregular', sans-serif;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+.footer-label {
+    
+}
+
+.design-by {
+    font-family: 'montserratregular', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ccc;
+    text-transform: uppercase;
 }
 
 

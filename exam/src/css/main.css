@@ -162,6 +162,12 @@ table {
 .content {
   width: 940px;
   margin: 0 auto; }
+  .content_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+    line-height: 24px; }
 
 .section-heading {
   font-family: 'montserratregular', sans-serif;
@@ -294,11 +300,42 @@ table {
   .interest__input {
     font-size: 14px; }
 
+/*___________Footer____________*/
+.footer {
+  border-top: 3px solid #ff4e50; }
+  .footer_nav-head {
+    font-family: 'montserratregular', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff4e50; }
+
+.footer-company_link {
+  font-family: 'robotolight', sans-serif;
+  font-size: 14px;
+  color: #666; }
+  .footer-company_link:hover {
+    text-decoration: underline; }
+
+.small-head {
+  font-family: 'montserratregular', sans-serif;
+  font-size: 14px;
+  font-weight: bold; }
+
+.design-by {
+  font-family: 'montserratregular', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ccc;
+  text-transform: uppercase; }
+
 /*___________MEDIA Queries__________*/
 @media screen and (max-width: 479px) {
   .content {
     width: 100%;
     margin: 0 auto; }
+    .content_footer {
+      flex-direction: column;
+      text-align: center; }
   .header {
     height: 540px; }
     .header__nav {
@@ -333,6 +370,8 @@ table {
       margin: 0 auto; }
   .section-heading {
     margin: 35px 0 18px; }
+    .section-heading_partners {
+      letter-spacing: 1px; }
   .slider-box {
     display: block;
     width: 100%; }
@@ -364,3 +403,28 @@ table {
     margin: 0 auto; }
   .partner {
     margin-bottom: 35px; } }
+
+.interest {
+  text-align: center; }
+  .interest__input {
+    margin: 17px 0 10px;
+    width: 87%;
+    border: 1px solid #999;
+    border-radius: 3px;
+    line-height: 36px; }
+  .interest__button {
+    margin-bottom: 40px;
+    width: 87%; }
+
+.footer_nav-head {
+  margin-top: 13px;
+  letter-spacing: .4px; }
+
+.footer-company {
+  display: flex;
+  justify-content: center; }
+  .footer-company_link {
+    margin: 0 10px; }
+
+.small-head {
+  margin-top: 5px; }
