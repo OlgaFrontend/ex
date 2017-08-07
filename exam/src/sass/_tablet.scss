@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@media (min-width: 480px) and (max-width: 768px) {
+  
+    .content {
+    	width: 100%;
+    }
+
+    .header {
+    	&__nav {
+    		justify-content: space-between;
+            padding-top: 46px;
+        }
+
+        &__nav-heading {
+        	margin-left: 50px;
+            letter-spacing: 1px;
+        }
+
+        &__nav-menu {
+        	margin-right: 53px;
+        }
+
+        &__slogan {
+        	margin-top: 151px;
+		    line-height: 60px;
+		    word-wrap: break-word;
+		    width: 78%;
+		    margin-left: 82px;
+        }
+
+        &__small-slogan {
+        	margin-top: 28px;
+        }
+    }
+
+    .button_header {
+    	margin-top: 35px;
+    	padding: 10px 20px;
+    	letter-spacing: .3px;
+    }
+
+    .section-heading {
+    	margin-top: 97px;
+    }
+
+    .slider-box {
+    	width: 98%;
+    	margin: 36px auto 0;
+    }
+
+    .slider {
+    	&__item {
+           width: 235px;
+    	}
+
+    	&__button {
+    		top: 40px;
+    	}
+		
+		&__content {
+   			padding: 210px 15px 20px;
+		
+			&_second {
+				padding-top: 259px;
+			}
+		}
+
+
+    	&__content-button {
+    		width: 62px;
+    		font-size: 10px;
+		    text-transform: uppercase;
+		    letter-spacing: 2px;
+    	}
+
+    	&__heading {
+    		line-height: 28px;
+    		margin: 17px 10px 10px 0;
+    	}
+    }
+
+    #next, #next2, #next3 {
+        margin-left: 150px;
+    }
+
+    .all-partners {
+    	    display: flex;
+		    justify-content: space-between;
+		    flex-wrap: wrap;
+		    width: 62%;
+		    margin: 0 auto;
+    }
+
+    .partner {
+    	margin-bottom: 60px;
+    	
+    	&_third {
+    		order: 1;
+    		margin-bottom: 46px;
+    	}
+
+    	&_forth {
+    		order: 2;
+    		margin-bottom: 46px;
+    	}
+	}
+
+	.button_partner {
+		display: block;
+    	margin: 0 auto;
+    	padding: 9px 28px;
+	}
+
+    .interest-head {
+    	margin-top: 38px;
+    }
+
+	.interest {
+        text-align: center;
+
+        &__input {
+            margin: 17px 3px 10px -2px;
+		    border: 1px solid #999;
+		    border-radius: 3px;
+		    line-height: 36px;
+		    padding: 0px 44px;
+        }
+
+        &__button {
+            margin-bottom: 40px;
+        }
+
+        &__form {
+        	margin-top: 5px;
+        }
+    }
+
+    .footer {
+	    margin-top: 55px;
+	    border-top: 5px solid #ff4e50;
+	}
+
+	.content_footer {
+		justify-content: space-around;
+	    margin-top: 31px;
+	    line-height: 28px;
+	}
+}

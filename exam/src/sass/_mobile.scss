@@ -128,43 +128,45 @@
         margin-bottom: 35px;
     }
 
-}
+    .interest {
+        text-align: center;
 
-.interest {
-    text-align: center;
+        &__input {
+            margin: 17px 0 10px;
+            width: 87%;
+            border: 1px solid #999;
+            border-radius: 3px;
+            line-height: 36px;
+        }
 
-    &__input {
-        margin: 17px 0 10px;
-        width: 87%;
-        border: 1px solid #999;
-        border-radius: 3px;
-        line-height: 36px;
+        &__button {
+            margin-bottom: 40px;
+            width: 87%;
+        }
     }
 
-    &__button {
-        margin-bottom: 40px;
-        width: 87%;
+    .footer {
+        &_nav-head {
+            margin-top: 13px;
+            letter-spacing: .4px;
+        }
     }
-}
 
-.footer {
-    &_nav-head {
-        margin-top: 13px;
-        letter-spacing: .4px;
+    .footer-company {
+        display: flex;
+        justify-content: center;
+
+        &_link {
+            margin: 0 10px;
+        }
     }
-}
 
-.footer-company {
-    display: flex;
-    justify-content: center;
-
-    &_link {
-        margin: 0 10px;
+    .small-head {
+        margin-top: 5px;
     }
+
 }
 
-.small-head {
-    margin-top: 5px;
-}
+
 
  

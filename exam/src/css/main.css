@@ -402,29 +402,111 @@ table {
     width: 228px;
     margin: 0 auto; }
   .partner {
-    margin-bottom: 35px; } }
+    margin-bottom: 35px; }
+  .interest {
+    text-align: center; }
+    .interest__input {
+      margin: 17px 0 10px;
+      width: 87%;
+      border: 1px solid #999;
+      border-radius: 3px;
+      line-height: 36px; }
+    .interest__button {
+      margin-bottom: 40px;
+      width: 87%; }
+  .footer_nav-head {
+    margin-top: 13px;
+    letter-spacing: .4px; }
+  .footer-company {
+    display: flex;
+    justify-content: center; }
+    .footer-company_link {
+      margin: 0 10px; }
+  .small-head {
+    margin-top: 5px; } }
 
-.interest {
-  text-align: center; }
-  .interest__input {
-    margin: 17px 0 10px;
-    width: 87%;
-    border: 1px solid #999;
-    border-radius: 3px;
-    line-height: 36px; }
-  .interest__button {
-    margin-bottom: 40px;
-    width: 87%; }
-
-.footer_nav-head {
-  margin-top: 13px;
-  letter-spacing: .4px; }
-
-.footer-company {
-  display: flex;
-  justify-content: center; }
-  .footer-company_link {
-    margin: 0 10px; }
-
-.small-head {
-  margin-top: 5px; }
+@media (min-width: 480px) and (max-width: 768px) {
+  .content {
+    width: 100%; }
+  .header__nav {
+    justify-content: space-between;
+    padding-top: 46px; }
+  .header__nav-heading {
+    margin-left: 50px;
+    letter-spacing: 1px; }
+  .header__nav-menu {
+    margin-right: 53px; }
+  .header__slogan {
+    margin-top: 151px;
+    line-height: 60px;
+    word-wrap: break-word;
+    width: 78%;
+    margin-left: 82px; }
+  .header__small-slogan {
+    margin-top: 28px; }
+  .button_header {
+    margin-top: 35px;
+    padding: 10px 20px;
+    letter-spacing: .3px; }
+  .section-heading {
+    margin-top: 97px; }
+  .slider-box {
+    width: 98%;
+    margin: 36px auto 0; }
+  .slider__item {
+    width: 235px; }
+  .slider__button {
+    top: 40px; }
+  .slider__content {
+    padding: 210px 15px 20px; }
+    .slider__content_second {
+      padding-top: 259px; }
+  .slider__content-button {
+    width: 62px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .slider__heading {
+    line-height: 28px;
+    margin: 17px 10px 10px 0; }
+  #next, #next2, #next3 {
+    margin-left: 150px; }
+  .all-partners {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 62%;
+    margin: 0 auto; }
+  .partner {
+    margin-bottom: 60px; }
+    .partner_third {
+      order: 1;
+      margin-bottom: 46px; }
+    .partner_forth {
+      order: 2;
+      margin-bottom: 46px; }
+  .button_partner {
+    display: block;
+    margin: 0 auto;
+    padding: 9px 28px; }
+  .interest-head {
+    margin-top: 38px; }
+  .interest {
+    text-align: center; }
+    .interest__input {
+      margin: 17px 3px 10px -2px;
+      border: 1px solid #999;
+      border-radius: 3px;
+      line-height: 36px;
+      padding: 0px 44px; }
+    .interest__button {
+      margin-bottom: 40px; }
+    .interest__form {
+      margin-top: 5px; }
+  .footer {
+    margin-top: 55px;
+    border-top: 5px solid #ff4e50; }
+  .content_footer {
+    justify-content: space-around;
+    margin-top: 31px;
+    line-height: 28px; } }
