@@ -346,7 +346,15 @@
 
 /*___________MEDIA Queries__________*/
 
+/*to 479px*/
 @import "mobile";
-@import "tablet";
 
+/*from 480px to 668px*/
+@import "mobileLandscape";
+
+/*from 669px to 767px*/
+@import "tabletPortrait";
+
+/*from 768px to 960px*/
+@import "tabletMedium";
 
