@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@media screen and (min-width: 1024px) {
+
+	.header {
+
+		&__nav {
+	        /*display: flex;*/
+	        justify-content: space-between;
+	        padding: 49px 0;
+	    }
+
+	    &__nav-heading {
+           letter-spacing: 1px;
+        }
+
+        &__slogan {
+        	width: 60%;
+            margin: 99px auto 0;
+            font-size: 52px;
+            text-transform: uppercase;
+            line-height: 62px;
+        }
+
+        &__small-slogan {
+            margin-top: 25px;
+        }
+	}
+
+	.button {
+    
+		&_header {
+	        margin-top: 38px;
+	        padding: 9px 21px;
+	    }
+	}
+
+
+
+
+	/*_____________CONTENT___________*/
+
+	.content {
+
+	    &_footer {
+	        margin-top: 33px;
+	    }
+	}
+
+	.section-heading {
+	    margin-top: 97px;
+	}
+
+
+	/*___________How it works/slider___________*/
+
+	.slider-box {
+	    margin-top: 36px;
+	}
+
+	.slider {
+	    
+	    &__button {
+	        top: 153px;
+	    }
+
+	    &__content-button {
+	        margin-top: 8px;
+	    }
+
+	    &__heading {
+	        margin: 17px 10px 10px 0;
+	    }
+
+	}
+
+	/*___________PARTNERS___________*/
+
+	.all-partners {
+	    display: flex;
+	    justify-content: space-between;
+	}
+
+	.partner {
+
+	    &__quotation {
+	        line-height: 16px;
+	    }
+	}
+
+	.button_partner {
+	    display: block;
+	    margin: 38px auto;
+	    padding: 10px 28px;
+	}
+
+	/*___________Discover ideas (Masonry)__________*/
+
+	/*___________Find your interest (AJAX)_________*/
+
+	.interest {
+	    text-align: center;
+
+	    &__input{
+	        padding: 5px 42px;
+	        line-height: 23px;
+	    }
+	}
+
+	.interest-head {
+	    margin-top: 37px;
+	}
+
+	/*___________Footer____________*/
+
+	.footer {
+	    margin-top: 103px;
+	    border-top: 4px solid #ff4e50;
+
+	    &_nav-head {
+	        letter-spacing: 1px;
+	    }
+	}
+
+	.footer-company {
+	    margin-top: 4px;
+	}
+
+	.footer-partner {
+	    margin-right: 273px;
+	}
+
+	.design-by {
+	    font-size: 10px;
+	    letter-spacing: 1px;
+	    text-align: end;
+	}
+
+
+}

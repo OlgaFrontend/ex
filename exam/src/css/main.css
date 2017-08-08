@@ -718,3 +718,158 @@ table {
     justify-content: space-around;
     margin-top: 31px;
     line-height: 28px; } }
+
+/*from 961 to 1024*/
+@media screen and (min-width: 961px) and (max-width: 1023px) {
+  .content {
+    width: 940px;
+    margin: 0 auto; }
+  .header__nav {
+    justify-content: space-between;
+    padding-top: 46px; }
+  .header__nav-heading {
+    margin-left: 50px;
+    letter-spacing: 1px; }
+  .header__nav-menu {
+    margin-right: 53px; }
+  .header__slogan {
+    margin-top: 151px;
+    line-height: 60px;
+    word-wrap: break-word;
+    width: 78%;
+    margin-left: 82px; }
+  .header__small-slogan {
+    margin-top: 28px; }
+  .button_header {
+    margin-top: 35px;
+    padding: 10px 20px;
+    letter-spacing: .3px; }
+  .section-heading {
+    margin-top: 97px; }
+  .slider-box {
+    width: 98%;
+    margin: 36px auto 0; }
+  .slider__item {
+    width: 235px; }
+  .slider__button {
+    top: 40px; }
+  .slider__content {
+    padding: 210px 15px 20px; }
+    .slider__content_second {
+      padding-top: 259px; }
+  .slider__content-button {
+    width: 62px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .slider__heading {
+    line-height: 28px;
+    margin: 17px 10px 10px 0; }
+  #next, #next2, #next3 {
+    margin-left: 150px; }
+  .all-partners {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 62%;
+    margin: 0 auto; }
+  .partner {
+    margin-bottom: 60px; }
+    .partner_third {
+      order: 1;
+      margin-bottom: 46px; }
+    .partner_forth {
+      order: 2;
+      margin-bottom: 46px; }
+  .button_partner {
+    display: block;
+    margin: 0 auto;
+    padding: 9px 28px; }
+  .interest-head {
+    margin-top: 38px; }
+  .interest {
+    text-align: center; }
+    .interest__input {
+      margin: 17px 3px 10px -2px;
+      border: 1px solid #999;
+      border-radius: 3px;
+      line-height: 36px;
+      padding: 0px 44px; }
+    .interest__button {
+      margin-bottom: 40px; }
+    .interest__form {
+      margin-top: 5px; }
+  .footer {
+    margin-top: 55px;
+    border-top: 5px solid #ff4e50; }
+  .content_footer {
+    justify-content: space-around;
+    margin-top: 31px;
+    line-height: 28px; } }
+
+/*from 1025px*/
+@media screen and (min-width: 1024px) {
+  .header__nav {
+    /*display: flex;*/
+    justify-content: space-between;
+    padding: 49px 0; }
+  .header__nav-heading {
+    letter-spacing: 1px; }
+  .header__slogan {
+    width: 60%;
+    margin: 99px auto 0;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 62px; }
+  .header__small-slogan {
+    margin-top: 25px; }
+  .button_header {
+    margin-top: 38px;
+    padding: 9px 21px; }
+  /*_____________CONTENT___________*/
+  .content_footer {
+    margin-top: 33px; }
+  .section-heading {
+    margin-top: 97px; }
+  /*___________How it works/slider___________*/
+  .slider-box {
+    margin-top: 36px; }
+  .slider__button {
+    top: 153px; }
+  .slider__content-button {
+    margin-top: 8px; }
+  .slider__heading {
+    margin: 17px 10px 10px 0; }
+  /*___________PARTNERS___________*/
+  .all-partners {
+    display: flex;
+    justify-content: space-between; }
+  .partner__quotation {
+    line-height: 16px; }
+  .button_partner {
+    display: block;
+    margin: 38px auto;
+    padding: 10px 28px; }
+  /*___________Discover ideas (Masonry)__________*/
+  /*___________Find your interest (AJAX)_________*/
+  .interest {
+    text-align: center; }
+    .interest__input {
+      padding: 5px 42px;
+      line-height: 23px; }
+  .interest-head {
+    margin-top: 37px; }
+  /*___________Footer____________*/
+  .footer {
+    margin-top: 103px;
+    border-top: 4px solid #ff4e50; }
+    .footer_nav-head {
+      letter-spacing: 1px; }
+  .footer-company {
+    margin-top: 4px; }
+  .footer-partner {
+    margin-right: 273px; }
+  .design-by {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: end; } }
