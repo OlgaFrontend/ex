@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 	<title>URLAUBSGLÜCK</title>
-	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header class="header">
@@ -183,12 +183,11 @@
     
 <!--Discover holiday activity ideas-->
 
-    <section class="content">
-        <h2 class="section-heading">
+    <section class="content clearfix">
+        <h2 class="section-heading section-heading_discover">
             Discover holiday activity ideas
         </h2>
         <div class="grid">
-                    <div class="grid-sizer"></div>
                     <div class="grid-item">
                         <img class="grid-img" src="">
                         <h2 class="title"></h2>
@@ -205,7 +204,11 @@
                         <img class="grid-img" src="">
                         <h2 class="title"></h2>
                     </div>
-                    <div class="grid-item">
+                    <div class="grid-item w-2">
+                        <img class="grid-img" src="">
+                        <h2 class="title"></h2>
+                    </div>
+                    <div class="grid-item w-2">
                         <img class="grid-img" src="">
                         <h2 class="title"></h2>
                     </div>
@@ -213,20 +216,19 @@
                         <img class="grid-img" src="">
                         <h2 class="title"></h2>
                     </div>
-                    <div class="grid-item">
-                        <img class="grid-img" src="">
-                        <h2 class="title"></h2>
-                    </div>
-        </div>         
+                </div>
     </section>
+
+<!--Search holiday activities-->
+
     <section class="content">
         <h2 class="section-heading">
             Discover holiday activity ideas
         </h2>
         <p class="interest interest-head">Hi! What are your holiday interests?</p>
         <form class="interest interest__form">
-            <input class="interest interest__input" type="text" name="" placeholder="Enter your interests">
-            <button class="button button_header interest__button">Search partners</button>
+            <input id="search" class="interest interest__input" type="text" name="" placeholder="Enter your interests">
+            <button id="partners" class="button button_header interest__button">Search partners</button>
         </form>
     </section>
     <footer class="footer">
@@ -253,6 +255,7 @@
 
 	
     <script src="https://unpkg.com/masonry-layout@4/dist/asonry.pkgd.min.js"></script>
+    <script src="js/imageRequest.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
