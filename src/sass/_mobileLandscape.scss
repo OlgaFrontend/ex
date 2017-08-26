@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width: 480px) and (max-width: 668px) {
+@media screen and (min-width: 481px) and (max-width: 668px) {
   
     .content {
     	width: 100%;
@@ -163,10 +163,9 @@
         }
     }
 
-    .grid {
+    /*.grid {
         width: 90%;
         margin: 0 auto;
-        background: white;
     }
 
     .grid-item {
@@ -179,6 +178,24 @@
 
     .w-2 {
         width: 100%;
+    }*/
+    
+    .grid {
+        width: 100%;
+        margin: 5px 10px;
+    }
+
+
+    .grid-item {
+        position: relative;
+        width: 31%;
+        height: 200px;
+        margin: 5px 2px;
+        float: left;
+    }
+
+    .w-2 { 
+        width: 63%;
     }
 
     .footer {

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
 
     .content {
         @include mobile-content; 
@@ -168,7 +168,6 @@
     .grid {
         width: 90%;
         margin: 0 auto;
-        background: white;
     }
 
     .grid-item {
