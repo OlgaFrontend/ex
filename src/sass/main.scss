@@ -121,7 +121,6 @@
 .slider-box {
   display: flex;
   justify-content: space-between;
-  /*margin-top: 40px;*/
 }
 
 .slider {
@@ -133,7 +132,6 @@
     }
 
     &__list {
-        /*padding: 0;*/
         list-style: none;
         font-family: Arial, sans-serif;
         color: #fff;
@@ -310,6 +308,7 @@
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .grid {
